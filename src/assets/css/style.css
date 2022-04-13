@@ -2,8 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#eeeeee;
+    background-color:#82deea;
     flex-direction: column;
+    padding-top: 20em;
+    padding-bottom: 20em;
 }
 
 .removeDataHomePage,
