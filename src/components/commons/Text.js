@@ -11,7 +11,7 @@ const Text = () => {
 
 export default Text;*/
 
-// todo: useEffect, useState
+// todo: Buổi 10 useEffect, useState
 
 import React, { useEffect, useState } from "react";
 
