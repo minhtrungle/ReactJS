@@ -11,7 +11,7 @@ const Button = () => {
 export default Button;*/
 
 //props
-import React, { useState } from "react";
+/*import React, { useState } from "react";
 
 const Button = (props) => {
     return (
@@ -20,6 +20,23 @@ const Button = (props) => {
          </div>
   );
 
+};
+
+export default Button;*/ 
+
+// todo: Buổi 12 add style reactjs
+
+import React, { useState } from "react";
+import styles from "./Button.module.css"; // Import css modules stylesheet as styles
+
+const Button = (props) => {
+  return (
+    <div>
+      <button className={styles.btn} onClick={props.onClickHandle}>
+        {props.btnText}
+      </button>
+    </div>
+  );
 };
 
 export default Button;
